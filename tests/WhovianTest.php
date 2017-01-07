@@ -31,6 +31,6 @@ class WhovianTest extends PHPUnit_Framework_TestCase {
     public function testGetOne()
     {
        $whovian = new Whovian('David Tennant');
-       $this->assertEquals(3, $whovian->getOne());
+       $this->assertEquals(4, $whovian->getOne());
     }
 }
