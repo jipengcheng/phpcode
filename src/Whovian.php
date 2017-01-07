@@ -8,6 +8,13 @@ class Whovian {
 
 
   /**
+   */
+  public function getOne()
+  {
+      return 3;
+  }
+
+  /**
    * Constructor
    * @param  string $favoriteDoctor
    */

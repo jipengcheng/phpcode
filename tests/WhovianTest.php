@@ -27,4 +27,10 @@ class WhovianTest extends PHPUnit_Framework_TestCase {
         $opinion = 'No way. Matt Smith was awesome!';
         $whovian->respondTo($opinion);
     }
+   
+    public function testGetOne()
+    {
+       $whovian = new Whovian('David Tennant');
+       $this->assertEquals(3, $whovian->getOne());
+    }
 }
